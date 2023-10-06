@@ -1,0 +1,29 @@
+.gradient-background {
+    background: linear-gradient(300deg, #CD1818, #0802A3, #CD1818);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#hub{
+   font-size: 20px;
+   font-weight: 552;
+}
+#dream{
+    font-size: 20px;
+    font-weight: 552;
+}
+.bg{
+    background-color: #292929;
+}
